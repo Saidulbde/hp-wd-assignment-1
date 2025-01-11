@@ -1,4 +1,43 @@
-*
-{
-    
+* {
+    padding: 0%;
+    margin: 0%;
+    /* background-color: brown; */
 }
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background: gray;
+}
+
+#top-part {display: flex; justify-content: space-between; align-content:center;
+margin: 10px;}
+
+#top-part button{border: none; padding: 5px 5px; border-radius: 12px;color: green;
+border: 2px solid green;}
+
+#top-part h2 {margin: 0%;}
+
+#top-part button:hover{background-color: brown;}
+
+
+
+#banner{padding: 20px; margin: 20px; background-color: bisque; }
+
+.banner-content{padding: 20px;display:flex;justify-content: space-between}
+
+.tex-content{display: flex; flex-direction: column; justify-content: center; width: 50%; flex-direction: column;}
+
+.tex-content h1,p,button{margin-bottom: 10px; height: max-content;}
+
+.tex-content p{font-size: 18px;}
+
+
+.cnt-btn{background-color: green;  border: green; padding: 10px 20px; border-radius: 12px;}
+
+.banner-image{display: flex; justify-content: right; }
+
+.banner-image img{max-width: 100%; height: auto;}
+
+
