@@ -96,3 +96,16 @@ body {
     justify-content: center;
     gap: 20px;
 }
+
+/* quote part */
+.quote{
+    border: 2px solid yellow;
+    background-color: aliceblue;
+    border-radius: 12px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin: auto;
+    padding: 20px;
+    
+}
